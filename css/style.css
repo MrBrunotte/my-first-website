@@ -1,0 +1,60 @@
+border{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald, sans-serif'
+}
+
+/*Style the Unordered list */
+nav ul{
+    list-style: none;               /* no dots in the list */
+    background-color: #4a4a4f;     /* background color charcoal color */
+    text-align: center;              /* align the text in the center */   
+    /* remove any default margin or padding!important */
+    margin: 0; 
+    padding: 0;
+}
+
+/*Style the individual list item */
+nav li{
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%
+}
+
+/*Style the anchor text <a> */
+nav a{
+    text-decoration: none;    /*No underline in the link */
+    color: #ffffff;             /* white color since background is grey */
+    display: block;
+}
+
+/*Hover and invert the color when hovering above the link */
+nav a:hover {
+    background-color: #ffffff;    /* white */
+    color: #4a4a4f;            /* charcoal color */
+}
+
+/*Style the class:     .card */
+.card{
+    float: left;        /*They will appear in a single row */
+    width: 15%;        /*width of the card 20% of the screen */
+    margin-left: 10%;    /*to give a little space between cards */
+}
+
+/*Anchor tags in class .card */
+.card a {
+    text-align: center;
+}
+
+/*Now we target our images */
+img{
+    width: 100%;    /*the width is realtive to its container which is 20% wide in the the class .card 
+                    not 100% of the screen but 100% of the 20% width in the container*/
+}
+
+/*Header one settinga */
+h1 {
+    text-align: center;
+}
