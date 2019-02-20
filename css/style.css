@@ -1,11 +1,11 @@
-border{
+border {
     margin: 0;
     padding: 0;
     font-family: 'Oswald, sans-serif'
 }
 
 /*Style the Unordered list */
-nav ul{
+nav ul {
     list-style: none;               /* no dots in the list */
     background-color: #4a4a4f;     /* background color charcoal color */
     text-align: center;              /* align the text in the center */   
@@ -15,7 +15,7 @@ nav ul{
 }
 
 /*Style the individual list item */
-nav li{
+nav li {
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
@@ -24,7 +24,7 @@ nav li{
 }
 
 /*Style the anchor text <a> */
-nav a{
+nav a {
     text-decoration: none;    /*No underline in the link */
     color: #ffffff;             /* white color since background is grey */
     display: block;
@@ -36,8 +36,13 @@ nav a:hover {
     color: #4a4a4f;            /* charcoal color */
 }
 
+nav a:active {
+    background-color: #fff;
+    color: #4a4a4f;
+}
+
 /*Style the class:     .card */
-.card{
+.card {
     float: left;        /*They will appear in a single row */
     width: 15%;        /*width of the card 20% of the screen */
     margin-left: 10%;    /*to give a little space between cards */
@@ -50,7 +55,7 @@ nav a:hover {
 }
 
 /*Now we target our images */
-img{
+img {
     width: 100%;    /*the width is realtive to its container which is 20% wide in the the class .card 
                     not 100% of the screen but 100% of the 20% width in the container*/
 }
